@@ -1,0 +1,23 @@
+{
+    "name": "grumpasaurus-october-base-theme",
+    "type": "october-theme",
+    "description": "OctoberCMS starter theme theme based on Foundation",
+    "keywords": ["october", "cms", "Foundation", "theme"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Best",
+            "email": "jim@justjibba.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "beelab/bowerphp" : "0.1.*@alpha"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}

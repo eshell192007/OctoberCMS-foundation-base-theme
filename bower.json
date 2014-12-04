@@ -1,0 +1,32 @@
+{
+    "name": "grumpasaurus-october-base-theme",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "James Best",
+            "email": "jim@justjibba.net",
+            "role": "Developer"
+        }
+    ],
+    "description": "OctoberCMS starter theme theme based on Foundation",
+    "keywords": [
+        "Foundation",
+        "Gulp",
+        "SCSS"
+    ],
+    "license": "MIT",
+    "homepage": "www.justjibba.net",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "foundation": "zurb/bower-foundation",
+        "lightbox2": "~2.7.1",
+        "slick-carousel": "~1.3.15"
+    }
+}
