@@ -7,7 +7,7 @@ var gulp = require('gulp');
 var bowerDir = 'assets/components';
 
 // Where do you store your JS files?
-var jsDir = 'assets/js';
+var jsDir = 'assets/javascript';
 
 // Which directory should Sass compile to?
 var targetjsDir = 'assets/javascript/min';
@@ -16,9 +16,9 @@ var targetjsDir = 'assets/javascript/min';
     gulp.task('scripts', function () {
         gulp.src([
                 bowerDir + '/foundation/js/foundation.min.js',
-                bowerDir + '/slick-carousel/slick/slick.min.js',
+                bowerDir + '/flexslider/jquery.flexslider-min.js',
                 bowerDir + '/lightbox2/js/lightbox.min.js',
-                jsDir + '/app.js'
+                jsDir + '/script.js'
             ])
             .pipe(concat('script.js'))
             .pipe(stripDebug())

@@ -1,0 +1,26 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Meta information pulled from each template -->
+    <title>{{ this.page.title }}</title>
+    <meta name="description" content="{{ this.page.description }}">
+    <meta name="keywords" content="Keywords go here">
+
+    <!-- Complete list of icons for all tablets and mobile devices -->
+    <!-- For standard Browser -->
+    <link rel="icon" href="<?php echo BASE_URL; ?>/img/icons/favicon.png">
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.7/css/foundation.min.css"/>
+
+    {% styles %}
+
+    <!--CDN for dev only. Use custom build for production - http://modernizr.com/download/-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
+
+
+</head>
+<body>
